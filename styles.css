@@ -42,12 +42,6 @@ footer, header {
 
 @media (min-width: 600px) {
     .container {
-        flex-direction: row;
-    }
-}
-
-@media (min-width: 600px) {
-    .container {
       flex-direction: row;
       flex-wrap: wrap;
     }
@@ -58,6 +52,8 @@ footer, header {
       width: 100%;
     }
   }                                  
+
+
 
 
   
