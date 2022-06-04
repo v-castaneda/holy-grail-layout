@@ -45,8 +45,9 @@ footer, header {
       flex-direction: row;
       flex-wrap: wrap;
     }
-    main {
+    main, img {
       max-width: 60%;
+      text-align: center;
     }
     header, footer {
       width: 100%;
