@@ -30,13 +30,34 @@ main {
     flex-grow: 5;
   }
   
-  aside, nav {
+aside, nav {
     background-color: var(--dusty-emerald);
     flex-grow: 2;
-  }
+}
   
-  footer, header {
+footer, header {
     background-color: var(--sage);
     flex-grow: 1;
-  }                             
+}    
+
+@media (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 600px) {
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    main {
+      max-width: 60%;
+    }
+    header, footer {
+      width: 100%;
+    }
+  }                                  
+
+
   
